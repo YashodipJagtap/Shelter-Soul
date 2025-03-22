@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply py-4 px-7;
+}
+
+/* 
+  .btn-lg {
+    @apply h-[54px];
+  }
+  .btn-md {
+    @apply h-[48px];
+  }
+  .btn-sm {
+    @apply h-[40px];
+  }
+
+  */
+
+/* to override the prose tailwind typography class */
+h1 {
+  @apply text-accent;
+}
+@layer base {
+  body {
+    @apply font-bodyAlt min-w-[512px];
+  }
+  h1 {
+    @apply text-accent !important;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary text-accent !important;
+  }
+  p {
+    @apply mb-4 text-lg font-normal text-neutral text-justify;
+  }
+  .section {
+    @apply prose min-w-full min-h-[95dvh] flex  items-center justify-center mt-24 lg:mb-0;
+  }
+  .section-title {
+    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5;
+  }
+  .subtitle {
+    @apply mb-4 lg:mb-8;
+  }
+  .active {
+    @apply text-accent;
+  }
+  /* this gets overriden by daily-ui.css 
+  .btn {
+    @apply py-4 px-7 ;
+  }  
+  */
+  .input {
+    @apply caret-accent bg-primary input-bordered  max-w-xs h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 !important;
+  }
+  .textarea {
+    @apply caret-accent textarea-bordered bg-primary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 !important;
+  }
+}

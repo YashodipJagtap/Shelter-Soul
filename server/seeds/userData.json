@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Yukitoshi Imaizumi-Zhou",
+    "email": "yukitoshi@gmail.com",
+    "password": "password01",
+    "role": "user",
+    "birthday": "1998-07-14",
+    "favoritePet": "Dog"
+  },
+  {
+    "name": "Jodie Lee",
+    "email": "jodie@yahoo.com",
+    "password": "password02",
+    "role": "user",
+    "birthday": "1995-06-27",
+    "favoritePet": "Cat"
+  },
+  {
+    "name": "Suyash Maharjan",
+    "email": "suyash@outlook.com",
+    "password": "password03",
+    "role": "user",
+    "birthday": "1987-07-27",
+    "favoritePet": "Rabbit"
+  }
+]
