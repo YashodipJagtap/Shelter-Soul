@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shelter Soul - Donate</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffffff, #f0f4f7);
+      color: #333;
+    }
+
+    header {
+      background: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #3465d9;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .title {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 36px;
+      color: #a35a00;
+    }
+
+    .desc {
+      text-align: center;
+      max-width: 800px;
+      margin: 15px auto 40px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      max-width: 280px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .pet-img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .pet-name {
+      font-size: 22px;
+      font-weight: bold;
+      color: #2f2f4f;
+    }
+
+    .pet-story {
+      font-size: 14px;
+      margin: 10px 0 15px;
+      color: #555;
+    }
+
+    .city-select {
+      margin-bottom: 10px;
+    }
+
+    .city-select select {
+      padding: 8px;
+      width: 90%;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .donate-btn {
+      background-color: #c77900;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .donate-btn:hover {
+      background-color: #a86400;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🐾 Shelter Soul</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Adopt</a>
+      <a href="#">Donate</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="title">Help a Soul, Make a Difference</div>
+  <div class="desc">
+    Every life matters. Your donation helps us feed, treat, and provide warm shelters to rescued pets. Support a soul
+    from Pune, Dhule, or Mumbai and be part of their journey to happiness.
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="https://place-puppy.com/300x200" class="pet-img" alt="Leo the Labrador">
+      <div class="pet-name">Leo (Pune)</div>
+      <div class="pet-story">A playful Labrador found near Shivaji Nagar, Pune. Leo loves people and is ready for a
+        second chance.</div>
+      <div class="city-select">
+        <select>
+          <option>Pune</option>
+          <option>Dhule</option>
+          <option>Mumbai</option>
+        </select>
+      </div>
+      <button class="donate-btn">$10 Donate</button>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/300/200" class="pet-img" alt="Mimi the Cat">
+      <div class="pet-name">Mimi (Dhule)</div>
+      <div class="pet-story">Rescued from Dhule streets, Mimi is a curious cat who enjoys cuddles and cozy corners.
+      </div>
+      <div class="city-select">
+        <select>
+          <option>Dhule</option>
+          <option>Pune</option>
+          <option>Mumbai</option>
+        </select>
+      </div>
+      <button class="donate-btn">$15 Donate</button>
+    </div>
+
+    <div class="card">
+      <img src="https://placedog.net/400/200?id=123" class="pet-img" alt="Shadow the Indie">
+      <div class="pet-name">Shadow (Mumbai)</div>
+      <div class="pet-story">Shadow was found injured in Bandra. With your support, he's on his way to recovery and joy.
+      </div>
+      <div class="city-select">
+        <select>
+          <option>Mumbai</option>
+          <option>Pune</option>
+          <option>Dhule</option>
+        </select>
+      </div>
+      <button class="donate-btn">$20 Donate</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Shelter Soul. Created with love for the paws in need.
+  </footer>
+
+</body>
+
+</html>

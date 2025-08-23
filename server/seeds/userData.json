@@ -1,23 +1,23 @@
 [
   {
-    "name": "Yukitoshi Imaizumi-Zhou",
-    "email": "yukitoshi@gmail.com",
-    "password": "password01",
+    "name": "Yashodip Dharmendra Jagtap",
+    "email": "yashodipjagtap44@gmail.com",
+    "password": "asdfg",
     "role": "user",
-    "birthday": "1998-07-14",
+    "birthday": "2005-02-05",
     "favoritePet": "Dog"
   },
   {
-    "name": "Jodie Lee",
-    "email": "jodie@yahoo.com",
+    "name": "Trial User First",
+    "email": "trialuser1@gmail.com",
     "password": "password02",
     "role": "user",
     "birthday": "1995-06-27",
     "favoritePet": "Cat"
   },
   {
-    "name": "Suyash Maharjan",
-    "email": "suyash@outlook.com",
+    "name": "Trial User Second",
+    "email": "trialuser2@gmail.com",
     "password": "password03",
     "role": "user",
     "birthday": "1987-07-27",

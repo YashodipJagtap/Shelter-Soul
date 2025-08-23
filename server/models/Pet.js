@@ -60,7 +60,7 @@ const petSchema = new Schema(
     location: {
       type: String,
       required: [true, 'Location is required'],
-      enum: ['Brisbane', 'Melbourne', 'Sydney'],
+      enum: ['Dhule', 'Pune', 'Mumbai'],
     },
     // Define the health field with type String, optional with a custom message
     health: {
